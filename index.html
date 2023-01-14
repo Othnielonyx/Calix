@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    nav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 10px; 
+    font-size: x-large;
+}
+.links{
+    display: flex;
+    list-style: none;
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    padding: 10px;
+}
+
+.links a:hover{
+    color: rgb(0, 0, 0);
+    color: rgb(236, 114, 57);
+    text-decoration: none;
+}
+
+.hydrosmall{
+  padding: 20px;
+}
+
+.hydrosmall a:hover{
+    color: rgb(0, 0, 0);
+    color: rgb(236, 114, 57);
+    text-decoration: none;
+}
+
+.button{
+  width: 120px;
+  padding: 12px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  color: white;
+  text-decoration: white;
+}
+
+.hushs{
+    padding: 0;
+    list-style: none;
+}
+
+.hushs a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.hushs a:hover{
+    color: orange;
+    text-decoration: none;
+}
+
+.hush{
+    padding: 0;
+    list-style: none;
+}
+
+.hush a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+.hush a:hover{
+    color: rgb(0, 0, 0);
+    color: rgb(236, 75, 57);
+    text-decoration: none;
+}
+  </style>
+</head>
+<body style="padding: 50px;">
+
+  <nav>
+        <div><img src="../news-homepage-main/assets/images/logo.svg" alt="logo"></div>
+        <ul class="links">
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="index.html">New</a> </li>
+            <li><a href="index.html">Popular</a> </li>
+            <li><a href="index.html"></i>Trending</a> </li>
+            <li><a href="index.html"></i>Categories</a> </li>
+        </ul>
+    </nav>
+
+    <div class="container" style="display: flex; justify-content: space-between;">
+
+      <div class="new" style="float: left;">
+        <img src="../news-homepage-main/assets/images/image-web-3-desktop.jpg" alt="homeimg" style="width: 850px; height: 300px;">
+      
+      <div class="tna" style="display: flex; justify-content: space-between;">
+        <div style="width: 300px; font-size: x-large; font-family: Arial, Helvetica, sans-serif;">
+          <h1>The Bright <br> Future of <br> Web 3.0?</h1>
+        </div>
+        <div>
+          <p style="width: 500px; color: #cfcfcf; font-size: 22px; font-family: sans-serif; padding-bottom: 20px;">
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?
+          </p>
+
+          <a class="button" href="#">Read more</a>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="hydro" style="background-color: rgb(5, 5, 31); float: right; width: 280px; height: 500px;">
+        <div class="hydrosmall">
+        <h2 style="color: orange;">NEW</h2>
+        <ul class="hushs"><li><a href="#">Hydrogen VS Electric Cars</a></li></ul>
+        <p style="color: rgb(150, 147, 147);">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        <hr>
+        <ul class="hushs"><li><a href="#">The Downsides of AI Artistry</a></li></ul>
+        <p style="color: rgb(150, 147, 147);">What are the possible adverse effects of on-demand AI image generation?</p>
+        <hr>
+        <ul class="hushs"><li><a href="#">Is VC Funding Drying Up?</a></li></ul>
+        <p style="color: rgb(150, 147, 147);">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </div>
+      </div>
+
+  </div>
+
+  <div class="containertwo" style="display: flex; justify-content: space-between; padding-top: 30px;">
+    <div style="width: 400px;">
+      <div style="float: left;">
+        <img src="../news-homepage-main/assets/images/desktoppc.jpg" alt="">
+      </div>
+      <div style="float: right;">
+        <h1 style="color: #cfcfcf;">01</h1>
+        <ul class="hush"><li><a href="#">Reviving Retro PCs</a></li></ul>
+        <p style="color: #cfcfcf;">What happens when old PCs  <br> are given modern upgrades?</p>
+      </div>
+    </div>
+    <div style="width: 400px; padding-left: 10px;">
+      <div style="float: left; height: auto;">
+        <img src="../news-homepage-main/assets/images/image-top-laptops.jpg" alt="">
+      </div>
+      <div style="float: right;">
+        <h1 style="color: #cfcfcf;">02</h1>
+        <ul class="hush"><li><a href="#">Top 10 Laptops of 2022</a></li></ul>
+        <p style="color: #cfcfcf;">Our best picks for various <br> needs and budgets.</p>
+      </div>
+    </div>
+    <div style="width: 400px; padding-left: 10px;">
+      <div style="float: left; height: auto;">
+        <img src="../news-homepage-main/assets/images/image-gaming-growth.jpg" alt="">
+      </div>
+      <div style="float: right;">
+        <h1 style="color: #cfcfcf;">03</h1>
+        <ul class="hush"><li><a href="#">The Growth of Gaming</a></li></ul>
+        <p style="color: #cfcfcf;">How the pandemic has sparked <br> fresh opportunities.</p>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.instagram.com/_calixonyx/">Onyx</a>.
+  </div>
+</body>
+</html>
